@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">QuantumTicTacToe</string>
+    <string name="turn_number">1</string>
 </resources>
