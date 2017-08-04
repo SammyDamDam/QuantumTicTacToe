@@ -11,6 +11,7 @@
         android:layout_width="63dp"
         android:layout_height="40dp"
         android:text="Turn: "
+        android:
         android:textSize="24sp"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="376dp" />
@@ -26,12 +27,11 @@
 
     <GridView
         android:id="@+id/gridview"
-        android:layout_width="368dp"
-        android:layout_height="368dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
         android:layout_margin="5pt"
         android:background="@color/teal"
         android:numColumns="3"
-        android:numRows="3"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="16dp" />
 </android.support.constraint.ConstraintLayout>
